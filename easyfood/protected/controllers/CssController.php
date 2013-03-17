@@ -1,5 +1,5 @@
 <?php
-require "/../extensions/less/lessc.inc.php";
+require dirname(__FILE__).DIRECTORY_SEPARATOR.'..'.DIRECTORY_SEPARATOR.'extensions/less/lessc.inc.php';
 class CssController extends CController
 {
     public function actionRender(){

@@ -1663,3 +1663,10 @@ Stack trace:
 #5 C:\xampp\htdocs\yii\framework\base\CApplication.php(169): CWebApplication->processRequest()
 #6 C:\xampp\htdocs\yii\easyfood\index.php(11): CWebApplication->run()
 REQUEST_URI=/yii/easyfood/css/render.css
+2013/03/17 03:32:38 [error] [php] require(C:\xampp\htdocs\yii\easyfood\protected\controllers\..extensions/less/lessc.inc.php): failed to open stream: No such file or directory (C:\xampp\htdocs\yii\easyfood\protected\controllers\CssController.php:2)
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(276): CWebApplication->createController()
+#1 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#2 C:\xampp\htdocs\yii\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#3 C:\xampp\htdocs\yii\easyfood\index.php(11): CWebApplication->run()
+REQUEST_URI=/yii/easyfood/css/render
