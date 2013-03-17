@@ -7,11 +7,11 @@
         
         <link rel="stylesheet" type="text/css" href="<?php echo Yii::app()->request->baseUrl;?>/css/render.css" media="screen, projection" />
 	<!--[if lt IE 8]>
-	<link rel="stylesheet" type="text/css" href="<?php// echo Yii::app()->request->baseUrl; ?>/css/ie.css" media="screen, projection" />
+	<link rel="stylesheet" type="text/css" href="<?php // echo Yii::app()->request->baseUrl; ?>/css/ie.css" media="screen, projection" />
 	<![endif]-->
 
-	<link rel="stylesheet" type="text/css" href="<?php// echo Yii::app()->request->baseUrl; ?>/css/main.css" />
-	<link rel="stylesheet" type="text/css" href="<?php// echo Yii::app()->request->baseUrl; ?>/css/form.css" />
+	<link rel="stylesheet" type="text/css" href="<?php // echo Yii::app()->request->baseUrl; ?>/css/main.css" />
+	<link rel="stylesheet" type="text/css" href="<?php // echo Yii::app()->request->baseUrl; ?>/css/form.css" />
 	<title><?php //echo CHtml::encode($this->pageTitle); ?></title>
 </head>
 
