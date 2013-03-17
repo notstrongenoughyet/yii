@@ -4,7 +4,7 @@
 	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
 	<meta name="language" content="en" />
 	<!-- blueprint CSS framework -->
-        
+        <link rel="icon" type="image/png" href="<?php echo Yii::app()->request->baseUrl; ?>/file/image?file=favicon.png">
         <link rel="stylesheet" type="text/css" href="<?php echo Yii::app()->request->baseUrl;?>/css/render.css" media="screen, projection" />
 	<!--[if lt IE 8]>
 	<link rel="stylesheet" type="text/css" href="<?php // echo Yii::app()->request->baseUrl; ?>/css/ie.css" media="screen, projection" />
@@ -26,8 +26,8 @@
     </div>
     <footer>
         <div id="copy_right">
-	Copyright &copy; <?php echo date('Y'); ?> by TonyIsTheSh*t. All Rights Reserved.<br/>
-	<?php echo Yii::powered(); ?>
+	Copyright &copy; <?php echo date('Y'); ?> by TonyIsTheSh*t. All Rights Reserved.
+	<?php //echo Yii::powered(); ?>
         </div>
     </footer>
     

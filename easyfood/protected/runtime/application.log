@@ -1670,3 +1670,243 @@ Stack trace:
 #2 C:\xampp\htdocs\yii\framework\base\CApplication.php(169): CWebApplication->processRequest()
 #3 C:\xampp\htdocs\yii\easyfood\index.php(11): CWebApplication->run()
 REQUEST_URI=/yii/easyfood/css/render
+2013/03/17 06:12:16 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "res/img/favicon.png".' in C:\xampp\htdocs\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('res/img/favicon...')
+#1 C:\xampp\htdocs\yii\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\yii\easyfood\index.php(11): CApplication->run()
+#3 {main}
+REQUEST_URI=/yii/easyfood/res/img/favicon.png
+---
+2013/03/17 06:12:18 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "res/img/favicon.png".' in C:\xampp\htdocs\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('res/img/favicon...')
+#1 C:\xampp\htdocs\yii\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\yii\easyfood\index.php(11): CApplication->run()
+#3 {main}
+REQUEST_URI=/yii/easyfood/res/img/favicon.png
+---
+2013/03/17 06:12:19 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "res/img/favicon.png".' in C:\xampp\htdocs\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('res/img/favicon...')
+#1 C:\xampp\htdocs\yii\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\yii\easyfood\index.php(11): CApplication->run()
+#3 {main}
+REQUEST_URI=/yii/easyfood/res/img/favicon.png
+---
+2013/03/17 06:18:28 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "yii/easyfood/yii/easyfood/yii/easyfood/yii/easyfood/yii/easyfood/yii/easyfood/yii/easyfood/yii/easyfood/yii/easyfood/yii/easyfood/yii/easyfood/yii/easyfood/yii/easyfood/yii/easyfood/yii/easyfood/yii/easyfood/yii/easyfood/yii/easyfood/yii/easyfood/yii/easyfood/yii/easyfood".' in C:\xampp\htdocs\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('yii/easyfood/yi...')
+#1 C:\xampp\htdocs\yii\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\yii\easyfood\index.php(11): CApplication->run()
+#3 {main}
+REQUEST_URI=/yii/easyfood/yii/easyfood/yii/easyfood/yii/easyfood/yii/easyfood/yii/easyfood/yii/easyfood/yii/easyfood/yii/easyfood/yii/easyfood/yii/easyfood/yii/easyfood/yii/easyfood/yii/easyfood/yii/easyfood/yii/easyfood/yii/easyfood/yii/easyfood/yii/easyfood/yii/easyfood/yii/easyfood/yii/easyfood/
+---
+2013/03/17 06:28:20 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "res/img/favicon.png".' in C:\xampp\htdocs\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('res/img/favicon...')
+#1 C:\xampp\htdocs\yii\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\yii\easyfood\index.php(11): CApplication->run()
+#3 {main}
+REQUEST_URI=/yii/easyfood/res/img/favicon.png
+---
+2013/03/17 06:28:51 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "res/img/favicon.png".' in C:\xampp\htdocs\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('res/img/favicon...')
+#1 C:\xampp\htdocs\yii\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\yii\easyfood\index.php(11): CApplication->run()
+#3 {main}
+REQUEST_URI=/yii/easyfood/res/img/favicon.png
+---
+2013/03/17 06:30:08 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "yii/easyfood/yii/easyfood/yii/easyfood/yii/easyfood/yii/easyfood/yii/easyfood/yii/easyfood/yii/easyfood/yii/easyfood/yii/easyfood/yii/easyfood/yii/easyfood/yii/easyfood/yii/easyfood/yii/easyfood/yii/easyfood/yii/easyfood/yii/easyfood/yii/easyfood/yii/easyfood".' in C:\xampp\htdocs\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('yii/easyfood/yi...')
+#1 C:\xampp\htdocs\yii\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\yii\easyfood\index.php(11): CApplication->run()
+#3 {main}
+REQUEST_URI=/yii/easyfood/yii/easyfood/yii/easyfood/yii/easyfood/yii/easyfood/yii/easyfood/yii/easyfood/yii/easyfood/yii/easyfood/yii/easyfood/yii/easyfood/yii/easyfood/yii/easyfood/yii/easyfood/yii/easyfood/yii/easyfood/yii/easyfood/yii/easyfood/yii/easyfood/yii/easyfood/yii/easyfood/
+---
+2013/03/17 06:30:13 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "res/img/favicon.png".' in C:\xampp\htdocs\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('res/img/favicon...')
+#1 C:\xampp\htdocs\yii\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\yii\easyfood\index.php(11): CApplication->run()
+#3 {main}
+REQUEST_URI=/yii/easyfood/res/img/favicon.png
+---
+2013/03/17 06:30:45 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "res/img/favicon.png".' in C:\xampp\htdocs\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('res/img/favicon...')
+#1 C:\xampp\htdocs\yii\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\yii\easyfood\index.php(11): CApplication->run()
+#3 {main}
+REQUEST_URI=/yii/easyfood/res/img/favicon.png
+---
+2013/03/17 06:31:08 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "res/img/favicon.png".' in C:\xampp\htdocs\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('res/img/favicon...')
+#1 C:\xampp\htdocs\yii\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\yii\easyfood\index.php(11): CApplication->run()
+#3 {main}
+REQUEST_URI=/yii/easyfood/res/img/favicon.png
+---
+2013/03/17 06:38:16 [error] [exception.CHttpException.400] exception 'CHttpException' with message 'Your request is invalid.' in C:\xampp\htdocs\yii\framework\web\CController.php:336
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\CController.php(309): CController->invalidActionParams(Object(CInlineAction))
+#1 C:\xampp\htdocs\yii\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#2 C:\xampp\htdocs\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#3 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(282): CController->run('image')
+#4 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('file/image')
+#5 C:\xampp\htdocs\yii\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#6 C:\xampp\htdocs\yii\easyfood\index.php(11): CApplication->run()
+#7 {main}
+REQUEST_URI=/yii/easyfood/file/image
+---
+2013/03/17 06:38:55 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "res/img".' in C:\xampp\htdocs\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('res/img')
+#1 C:\xampp\htdocs\yii\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\yii\easyfood\index.php(11): CApplication->run()
+#3 {main}
+REQUEST_URI=/yii/easyfood/res/img
+---
+2013/03/17 06:39:02 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "res/img/favicon.png".' in C:\xampp\htdocs\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('res/img/favicon...')
+#1 C:\xampp\htdocs\yii\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\yii\easyfood\index.php(11): CApplication->run()
+#3 {main}
+REQUEST_URI=/yii/easyfood/res/img/favicon.png
+---
+2013/03/17 06:40:29 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "res/img/*".' in C:\xampp\htdocs\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('res/img/*')
+#1 C:\xampp\htdocs\yii\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\yii\easyfood\index.php(11): CApplication->run()
+#3 {main}
+REQUEST_URI=/yii/easyfood/res/img/favicon.png
+---
+2013/03/17 06:44:38 [error] [exception.CHttpException.400] exception 'CHttpException' with message 'Your request is invalid.' in C:\xampp\htdocs\yii\framework\web\CController.php:336
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\CController.php(309): CController->invalidActionParams(Object(CInlineAction))
+#1 C:\xampp\htdocs\yii\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#2 C:\xampp\htdocs\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#3 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(282): CController->run('image')
+#4 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('file/image')
+#5 C:\xampp\htdocs\yii\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#6 C:\xampp\htdocs\yii\easyfood\index.php(11): CApplication->run()
+#7 {main}
+REQUEST_URI=/yii/easyfood/file/image
+---
+2013/03/17 06:44:48 [error] [exception.CHttpException.400] exception 'CHttpException' with message 'Your request is invalid.' in C:\xampp\htdocs\yii\framework\web\CController.php:336
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\CController.php(309): CController->invalidActionParams(Object(CInlineAction))
+#1 C:\xampp\htdocs\yii\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#2 C:\xampp\htdocs\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#3 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(282): CController->run('image')
+#4 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('file/image')
+#5 C:\xampp\htdocs\yii\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#6 C:\xampp\htdocs\yii\easyfood\index.php(11): CApplication->run()
+#7 {main}
+REQUEST_URI=/yii/easyfood/file/image?favicon.png
+---
+2013/03/17 06:48:55 [error] [php] readfile(C:\xampp\htdocs\yii\easyfood\protected\controllers\..\res\imgfavicon.png): failed to open stream: No such file or directory (C:\xampp\htdocs\yii\easyfood\protected\controllers\FileController.php:8)
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\actions\CAction.php(108): ReflectionMethod->invokeArgs()
+#1 C:\xampp\htdocs\yii\framework\web\actions\CInlineAction.php(47): CInlineAction->runWithParamsInternal()
+#2 C:\xampp\htdocs\yii\framework\web\CController.php(308): CInlineAction->runWithParams()
+#3 C:\xampp\htdocs\yii\framework\web\CController.php(286): FileController->runAction()
+#4 C:\xampp\htdocs\yii\framework\web\CController.php(265): FileController->runActionWithFilters()
+#5 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(282): FileController->run()
+#6 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#7 C:\xampp\htdocs\yii\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#8 C:\xampp\htdocs\yii\easyfood\index.php(11): CWebApplication->run()
+REQUEST_URI=/yii/easyfood/file/image?file=favicon.png
+2013/03/17 06:49:02 [error] [php] readfile(C:\xampp\htdocs\yii\easyfood\protected\controllers\..\res\imgfavicon.png): failed to open stream: No such file or directory (C:\xampp\htdocs\yii\easyfood\protected\controllers\FileController.php:8)
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\actions\CAction.php(108): ReflectionMethod->invokeArgs()
+#1 C:\xampp\htdocs\yii\framework\web\actions\CInlineAction.php(47): CInlineAction->runWithParamsInternal()
+#2 C:\xampp\htdocs\yii\framework\web\CController.php(308): CInlineAction->runWithParams()
+#3 C:\xampp\htdocs\yii\framework\web\CController.php(286): FileController->runAction()
+#4 C:\xampp\htdocs\yii\framework\web\CController.php(265): FileController->runActionWithFilters()
+#5 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(282): FileController->run()
+#6 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#7 C:\xampp\htdocs\yii\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#8 C:\xampp\htdocs\yii\easyfood\index.php(11): CWebApplication->run()
+REQUEST_URI=/yii/easyfood/file/image?file=favicon.png
+2013/03/17 06:49:02 [error] [php] readfile(C:\xampp\htdocs\yii\easyfood\protected\controllers\..\res\imgfavicon.png): failed to open stream: No such file or directory (C:\xampp\htdocs\yii\easyfood\protected\controllers\FileController.php:8)
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\actions\CAction.php(108): ReflectionMethod->invokeArgs()
+#1 C:\xampp\htdocs\yii\framework\web\actions\CInlineAction.php(47): CInlineAction->runWithParamsInternal()
+#2 C:\xampp\htdocs\yii\framework\web\CController.php(308): CInlineAction->runWithParams()
+#3 C:\xampp\htdocs\yii\framework\web\CController.php(286): FileController->runAction()
+#4 C:\xampp\htdocs\yii\framework\web\CController.php(265): FileController->runActionWithFilters()
+#5 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(282): FileController->run()
+#6 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#7 C:\xampp\htdocs\yii\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#8 C:\xampp\htdocs\yii\easyfood\index.php(11): CWebApplication->run()
+REQUEST_URI=/yii/easyfood/file/image?file=favicon.png
+2013/03/17 06:49:03 [error] [php] readfile(C:\xampp\htdocs\yii\easyfood\protected\controllers\..\res\imgfavicon.png): failed to open stream: No such file or directory (C:\xampp\htdocs\yii\easyfood\protected\controllers\FileController.php:8)
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\actions\CAction.php(108): ReflectionMethod->invokeArgs()
+#1 C:\xampp\htdocs\yii\framework\web\actions\CInlineAction.php(47): CInlineAction->runWithParamsInternal()
+#2 C:\xampp\htdocs\yii\framework\web\CController.php(308): CInlineAction->runWithParams()
+#3 C:\xampp\htdocs\yii\framework\web\CController.php(286): FileController->runAction()
+#4 C:\xampp\htdocs\yii\framework\web\CController.php(265): FileController->runActionWithFilters()
+#5 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(282): FileController->run()
+#6 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#7 C:\xampp\htdocs\yii\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#8 C:\xampp\htdocs\yii\easyfood\index.php(11): CWebApplication->run()
+REQUEST_URI=/yii/easyfood/file/image?file=favicon.png
+2013/03/17 06:49:03 [error] [php] readfile(C:\xampp\htdocs\yii\easyfood\protected\controllers\..\res\imgfavicon.png): failed to open stream: No such file or directory (C:\xampp\htdocs\yii\easyfood\protected\controllers\FileController.php:8)
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\actions\CAction.php(108): ReflectionMethod->invokeArgs()
+#1 C:\xampp\htdocs\yii\framework\web\actions\CInlineAction.php(47): CInlineAction->runWithParamsInternal()
+#2 C:\xampp\htdocs\yii\framework\web\CController.php(308): CInlineAction->runWithParams()
+#3 C:\xampp\htdocs\yii\framework\web\CController.php(286): FileController->runAction()
+#4 C:\xampp\htdocs\yii\framework\web\CController.php(265): FileController->runActionWithFilters()
+#5 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(282): FileController->run()
+#6 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#7 C:\xampp\htdocs\yii\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#8 C:\xampp\htdocs\yii\easyfood\index.php(11): CWebApplication->run()
+REQUEST_URI=/yii/easyfood/file/image?file=favicon.png
+2013/03/17 06:49:17 [error] [php] readfile(C:\xampp\htdocs\yii\easyfood\protected\controllers\..\res\imgfavicon.png): failed to open stream: No such file or directory (C:\xampp\htdocs\yii\easyfood\protected\controllers\FileController.php:9)
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\actions\CAction.php(108): ReflectionMethod->invokeArgs()
+#1 C:\xampp\htdocs\yii\framework\web\actions\CInlineAction.php(47): CInlineAction->runWithParamsInternal()
+#2 C:\xampp\htdocs\yii\framework\web\CController.php(308): CInlineAction->runWithParams()
+#3 C:\xampp\htdocs\yii\framework\web\CController.php(286): FileController->runAction()
+#4 C:\xampp\htdocs\yii\framework\web\CController.php(265): FileController->runActionWithFilters()
+#5 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(282): FileController->run()
+#6 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#7 C:\xampp\htdocs\yii\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#8 C:\xampp\htdocs\yii\easyfood\index.php(11): CWebApplication->run()
+REQUEST_URI=/yii/easyfood/file/image?file=favicon.png
+2013/03/17 06:49:18 [error] [php] readfile(C:\xampp\htdocs\yii\easyfood\protected\controllers\..\res\imgfavicon.png): failed to open stream: No such file or directory (C:\xampp\htdocs\yii\easyfood\protected\controllers\FileController.php:9)
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\actions\CAction.php(108): ReflectionMethod->invokeArgs()
+#1 C:\xampp\htdocs\yii\framework\web\actions\CInlineAction.php(47): CInlineAction->runWithParamsInternal()
+#2 C:\xampp\htdocs\yii\framework\web\CController.php(308): CInlineAction->runWithParams()
+#3 C:\xampp\htdocs\yii\framework\web\CController.php(286): FileController->runAction()
+#4 C:\xampp\htdocs\yii\framework\web\CController.php(265): FileController->runActionWithFilters()
+#5 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(282): FileController->run()
+#6 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#7 C:\xampp\htdocs\yii\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#8 C:\xampp\htdocs\yii\easyfood\index.php(11): CWebApplication->run()
+REQUEST_URI=/yii/easyfood/file/image?file=favicon.png
+2013/03/17 06:50:45 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "res/img/favicon.png".' in C:\xampp\htdocs\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('res/img/favicon...')
+#1 C:\xampp\htdocs\yii\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\yii\easyfood\index.php(11): CApplication->run()
+#3 {main}
+REQUEST_URI=/yii/easyfood/res/img/favicon.png
+---
+2013/03/17 06:52:18 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "res/img/favicon.png".' in C:\xampp\htdocs\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('res/img/favicon...')
+#1 C:\xampp\htdocs\yii\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\yii\easyfood\index.php(11): CApplication->run()
+#3 {main}
+REQUEST_URI=/yii/easyfood/res/img/favicon.png
+---
