@@ -24,7 +24,7 @@
 
 <body>
 
-<div class="container">
+<div class="main_container">
     <header>
         <div class="navbar navbar-inverse">
             <div class="navbar-inner">
@@ -38,12 +38,13 @@
                 </a>
 
                 <!-- Be sure to leave the brand out there if you want it shown -->
+                <a class="brand_logo" href="#"><img src="<?php echo Yii::app()->request->baseUrl;?>/assets/img/favicon.png"/></a>
                 <a class="brand" href="#">Need For Food</a>
                 <div class="nav-collapse collapse navbar-responsive-collapse">
                     <ul class="nav">
                       <li class="active"><a href="#">Home</a></li>
-                      <li><a href="#">Link</a></li>
-                      <li><a href="#">Link</a></li>
+                      <li><a href="#">Dishes</a></li>
+                      <li><a href="#">Materials</a></li>
                       <li class="dropdown">
                         <a href="#" class="dropdown-toggle" data-toggle="dropdown">Dropdown <b class="caret"></b></a>
                         <ul class="dropdown-menu">
@@ -61,16 +62,16 @@
                       <input type="text" class="search-query span2" placeholder="Search">
                     </form>
                     <ul class="nav pull-right">
-                      <li><a href="#">Link</a></li>
+                      <li><a href="#">Support</a></li>
                       <li class="divider-vertical"></li>
                       <li class="dropdown">
-                        <a href="#" class="dropdown-toggle" data-toggle="dropdown">Dropdown <b class="caret"></b></a>
+                        <a href="#" class="dropdown-toggle" data-toggle="dropdown">User <b class="caret"></b></a>
                         <ul class="dropdown-menu">
-                          <li><a href="#">Action</a></li>
-                          <li><a href="#">Another action</a></li>
+                          <li><a href="#">Profile</a></li>
+                          <li><a href="#">My posts</a></li>
                           <li><a href="#">Something else here</a></li>
                           <li class="divider"></li>
-                          <li><a href="#">Separated link</a></li>
+                          <li><a href="#">Logout</a></li>
                         </ul>
                       </li>
                     </ul>
