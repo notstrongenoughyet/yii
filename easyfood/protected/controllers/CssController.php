@@ -6,7 +6,7 @@ class CssController extends CController
        $css_dir = dirname(__FILE__)."/../res/less/screen.less";
        $less = new lessc;
        header('Content-type: text/css');
-       echo $less->compileFile($css_dir);
+       echo "@baseurl:asdfasdf; \n\r".$less->compileFile($css_dir);
     }
 
 }

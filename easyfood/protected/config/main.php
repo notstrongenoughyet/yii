@@ -49,7 +49,8 @@ return array(
 				'post/<id:\d+>/<title:.*?>'=>'post/view',
 				'posts/<tag:.*?>'=>'post/index',
 				'<controller:\w+>/<action:\w+>'=>'<controller>/<action>',
-                                'css/render.css'=> 'css/render',
+                                'file/rendercss.css'=> 'file/rendercss',
+                                
 			),
                     ),
              /*   'assetManager' => array(

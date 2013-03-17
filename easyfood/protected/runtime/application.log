@@ -1910,3 +1910,316 @@ Stack trace:
 #3 {main}
 REQUEST_URI=/yii/easyfood/res/img/favicon.png
 ---
+2013/03/17 07:18:46 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "q".' in C:\xampp\htdocs\yii\framework\web\CController.php:483
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\CController.php(270): CController->missingAction('q')
+#1 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(282): CController->run('q')
+#2 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('css/q/file/imag...')
+#3 C:\xampp\htdocs\yii\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#4 C:\xampp\htdocs\yii\easyfood\index.php(11): CApplication->run()
+#5 {main}
+REQUEST_URI=/yii/easyfood/css/q/file/image/?file=favicon.png
+HTTP_REFERER=http://www.mixthemup.ca/yii/easyfood/
+---
+2013/03/17 07:19:48 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "file".' in C:\xampp\htdocs\yii\framework\web\CController.php:483
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\CController.php(270): CController->missingAction('file')
+#1 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(282): CController->run('file')
+#2 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('css/file/image')
+#3 C:\xampp\htdocs\yii\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#4 C:\xampp\htdocs\yii\easyfood\index.php(11): CApplication->run()
+#5 {main}
+REQUEST_URI=/yii/easyfood/css/file/image/?file=favicon.png
+---
+2013/03/17 07:21:13 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "*".' in C:\xampp\htdocs\yii\framework\web\CController.php:483
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\CController.php(270): CController->missingAction('*')
+#1 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(282): CController->run('*')
+#2 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('file/*')
+#3 C:\xampp\htdocs\yii\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#4 C:\xampp\htdocs\yii\easyfood\index.php(11): CApplication->run()
+#5 {main}
+REQUEST_URI=/yii/easyfood/css/file/image/?file=favicon.png
+---
+2013/03/17 07:21:15 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "*".' in C:\xampp\htdocs\yii\framework\web\CController.php:483
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\CController.php(270): CController->missingAction('*')
+#1 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(282): CController->run('*')
+#2 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('file/*')
+#3 C:\xampp\htdocs\yii\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#4 C:\xampp\htdocs\yii\easyfood\index.php(11): CApplication->run()
+#5 {main}
+REQUEST_URI=/yii/easyfood/css/file/image/?file=favicon.png
+---
+2013/03/17 07:21:16 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "*".' in C:\xampp\htdocs\yii\framework\web\CController.php:483
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\CController.php(270): CController->missingAction('*')
+#1 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(282): CController->run('*')
+#2 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('file/*')
+#3 C:\xampp\htdocs\yii\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#4 C:\xampp\htdocs\yii\easyfood\index.php(11): CApplication->run()
+#5 {main}
+REQUEST_URI=/yii/easyfood/css/file/image/?file=favicon.png
+---
+2013/03/17 07:21:16 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "*".' in C:\xampp\htdocs\yii\framework\web\CController.php:483
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\CController.php(270): CController->missingAction('*')
+#1 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(282): CController->run('*')
+#2 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('file/*')
+#3 C:\xampp\htdocs\yii\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#4 C:\xampp\htdocs\yii\easyfood\index.php(11): CApplication->run()
+#5 {main}
+REQUEST_URI=/yii/easyfood/css/file/image/?file=favicon.png
+---
+2013/03/17 07:21:16 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "*".' in C:\xampp\htdocs\yii\framework\web\CController.php:483
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\CController.php(270): CController->missingAction('*')
+#1 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(282): CController->run('*')
+#2 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('file/*')
+#3 C:\xampp\htdocs\yii\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#4 C:\xampp\htdocs\yii\easyfood\index.php(11): CApplication->run()
+#5 {main}
+REQUEST_URI=/yii/easyfood/css/file/image/?file=favicon.png
+---
+2013/03/17 07:21:16 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "*".' in C:\xampp\htdocs\yii\framework\web\CController.php:483
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\CController.php(270): CController->missingAction('*')
+#1 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(282): CController->run('*')
+#2 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('file/*')
+#3 C:\xampp\htdocs\yii\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#4 C:\xampp\htdocs\yii\easyfood\index.php(11): CApplication->run()
+#5 {main}
+REQUEST_URI=/yii/easyfood/css/file/image/?file=favicon.png
+---
+2013/03/17 07:21:16 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "*".' in C:\xampp\htdocs\yii\framework\web\CController.php:483
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\CController.php(270): CController->missingAction('*')
+#1 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(282): CController->run('*')
+#2 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('file/*')
+#3 C:\xampp\htdocs\yii\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#4 C:\xampp\htdocs\yii\easyfood\index.php(11): CApplication->run()
+#5 {main}
+REQUEST_URI=/yii/easyfood/css/file/image/?file=favicon.png
+---
+2013/03/17 07:22:27 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "*".' in C:\xampp\htdocs\yii\framework\web\CController.php:483
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\CController.php(270): CController->missingAction('*')
+#1 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(282): CController->run('*')
+#2 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('file/*')
+#3 C:\xampp\htdocs\yii\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#4 C:\xampp\htdocs\yii\easyfood\index.php(11): CApplication->run()
+#5 {main}
+REQUEST_URI=/yii/easyfood/css/file/image/?file=favicon.png
+---
+2013/03/17 07:22:50 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "*".' in C:\xampp\htdocs\yii\framework\web\CController.php:483
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\CController.php(270): CController->missingAction('*')
+#1 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(282): CController->run('*')
+#2 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('file/*')
+#3 C:\xampp\htdocs\yii\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#4 C:\xampp\htdocs\yii\easyfood\index.php(11): CApplication->run()
+#5 {main}
+REQUEST_URI=/yii/easyfood/css/file/image/?file=favicon.png
+---
+2013/03/17 07:23:29 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "index".' in C:\xampp\htdocs\yii\framework\web\CController.php:483
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\CController.php(270): CController->missingAction('')
+#1 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(282): CController->run('')
+#2 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('file')
+#3 C:\xampp\htdocs\yii\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#4 C:\xampp\htdocs\yii\easyfood\index.php(11): CApplication->run()
+#5 {main}
+REQUEST_URI=/yii/easyfood/css/file/image/?file=favicon.png
+---
+2013/03/17 07:23:29 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "index".' in C:\xampp\htdocs\yii\framework\web\CController.php:483
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\CController.php(270): CController->missingAction('')
+#1 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(282): CController->run('')
+#2 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('file')
+#3 C:\xampp\htdocs\yii\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#4 C:\xampp\htdocs\yii\easyfood\index.php(11): CApplication->run()
+#5 {main}
+REQUEST_URI=/yii/easyfood/css/file/image/?file=favicon.png
+---
+2013/03/17 07:23:29 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "index".' in C:\xampp\htdocs\yii\framework\web\CController.php:483
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\CController.php(270): CController->missingAction('')
+#1 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(282): CController->run('')
+#2 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('file')
+#3 C:\xampp\htdocs\yii\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#4 C:\xampp\htdocs\yii\easyfood\index.php(11): CApplication->run()
+#5 {main}
+REQUEST_URI=/yii/easyfood/css/file/image/?file=favicon.png
+---
+2013/03/17 07:23:30 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "index".' in C:\xampp\htdocs\yii\framework\web\CController.php:483
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\CController.php(270): CController->missingAction('')
+#1 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(282): CController->run('')
+#2 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('file')
+#3 C:\xampp\htdocs\yii\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#4 C:\xampp\htdocs\yii\easyfood\index.php(11): CApplication->run()
+#5 {main}
+REQUEST_URI=/yii/easyfood/css/file/image/?file=favicon.png
+---
+2013/03/17 07:23:33 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "index".' in C:\xampp\htdocs\yii\framework\web\CController.php:483
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\CController.php(270): CController->missingAction('')
+#1 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(282): CController->run('')
+#2 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('file')
+#3 C:\xampp\htdocs\yii\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#4 C:\xampp\htdocs\yii\easyfood\index.php(11): CApplication->run()
+#5 {main}
+REQUEST_URI=/yii/easyfood/css/file/image
+---
+2013/03/17 07:23:35 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "index".' in C:\xampp\htdocs\yii\framework\web\CController.php:483
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\CController.php(270): CController->missingAction('')
+#1 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(282): CController->run('')
+#2 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('file')
+#3 C:\xampp\htdocs\yii\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#4 C:\xampp\htdocs\yii\easyfood\index.php(11): CApplication->run()
+#5 {main}
+REQUEST_URI=/yii/easyfood/css/file/image
+---
+2013/03/17 07:23:35 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "index".' in C:\xampp\htdocs\yii\framework\web\CController.php:483
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\CController.php(270): CController->missingAction('')
+#1 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(282): CController->run('')
+#2 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('file')
+#3 C:\xampp\htdocs\yii\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#4 C:\xampp\htdocs\yii\easyfood\index.php(11): CApplication->run()
+#5 {main}
+REQUEST_URI=/yii/easyfood/css/file/image
+---
+2013/03/17 07:23:35 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "index".' in C:\xampp\htdocs\yii\framework\web\CController.php:483
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\CController.php(270): CController->missingAction('')
+#1 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(282): CController->run('')
+#2 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('file')
+#3 C:\xampp\htdocs\yii\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#4 C:\xampp\htdocs\yii\easyfood\index.php(11): CApplication->run()
+#5 {main}
+REQUEST_URI=/yii/easyfood/css/file/image
+---
+2013/03/17 07:23:36 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "index".' in C:\xampp\htdocs\yii\framework\web\CController.php:483
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\CController.php(270): CController->missingAction('')
+#1 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(282): CController->run('')
+#2 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('file')
+#3 C:\xampp\htdocs\yii\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#4 C:\xampp\htdocs\yii\easyfood\index.php(11): CApplication->run()
+#5 {main}
+REQUEST_URI=/yii/easyfood/css/file/image
+---
+2013/03/17 07:23:36 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "index".' in C:\xampp\htdocs\yii\framework\web\CController.php:483
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\CController.php(270): CController->missingAction('')
+#1 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(282): CController->run('')
+#2 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('file')
+#3 C:\xampp\htdocs\yii\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#4 C:\xampp\htdocs\yii\easyfood\index.php(11): CApplication->run()
+#5 {main}
+REQUEST_URI=/yii/easyfood/css/file/image
+---
+2013/03/17 07:27:56 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "file".' in C:\xampp\htdocs\yii\framework\web\CController.php:483
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\CController.php(270): CController->missingAction('file')
+#1 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(282): CController->run('file')
+#2 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('css/file/image')
+#3 C:\xampp\htdocs\yii\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#4 C:\xampp\htdocs\yii\easyfood\index.php(11): CApplication->run()
+#5 {main}
+REQUEST_URI=/yii/easyfood/css/file/image/?file=favicon.png
+---
+2013/03/17 07:27:56 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "file".' in C:\xampp\htdocs\yii\framework\web\CController.php:483
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\CController.php(270): CController->missingAction('file')
+#1 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(282): CController->run('file')
+#2 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('css/file/image')
+#3 C:\xampp\htdocs\yii\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#4 C:\xampp\htdocs\yii\easyfood\index.php(11): CApplication->run()
+#5 {main}
+REQUEST_URI=/yii/easyfood/css/file/image/?file=favicon.png
+---
+2013/03/17 07:27:56 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "file".' in C:\xampp\htdocs\yii\framework\web\CController.php:483
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\CController.php(270): CController->missingAction('file')
+#1 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(282): CController->run('file')
+#2 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('css/file/image')
+#3 C:\xampp\htdocs\yii\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#4 C:\xampp\htdocs\yii\easyfood\index.php(11): CApplication->run()
+#5 {main}
+REQUEST_URI=/yii/easyfood/css/file/image/?file=favicon.png
+---
+2013/03/17 07:27:57 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "file".' in C:\xampp\htdocs\yii\framework\web\CController.php:483
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\CController.php(270): CController->missingAction('file')
+#1 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(282): CController->run('file')
+#2 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('css/file/image')
+#3 C:\xampp\htdocs\yii\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#4 C:\xampp\htdocs\yii\easyfood\index.php(11): CApplication->run()
+#5 {main}
+REQUEST_URI=/yii/easyfood/css/file/image/?file=favicon.png
+---
+2013/03/17 07:27:57 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "file".' in C:\xampp\htdocs\yii\framework\web\CController.php:483
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\CController.php(270): CController->missingAction('file')
+#1 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(282): CController->run('file')
+#2 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('css/file/image')
+#3 C:\xampp\htdocs\yii\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#4 C:\xampp\htdocs\yii\easyfood\index.php(11): CApplication->run()
+#5 {main}
+REQUEST_URI=/yii/easyfood/css/file/image/?file=favicon.png
+---
+2013/03/17 07:31:39 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "file".' in C:\xampp\htdocs\yii\framework\web\CController.php:483
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\CController.php(270): CController->missingAction('file')
+#1 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(282): CController->run('file')
+#2 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('css/file/image')
+#3 C:\xampp\htdocs\yii\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#4 C:\xampp\htdocs\yii\easyfood\index.php(11): CApplication->run()
+#5 {main}
+REQUEST_URI=/yii/easyfood/css/file/image/?file=favicon.png
+---
+2013/03/17 07:31:40 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "file".' in C:\xampp\htdocs\yii\framework\web\CController.php:483
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\CController.php(270): CController->missingAction('file')
+#1 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(282): CController->run('file')
+#2 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('css/file/image')
+#3 C:\xampp\htdocs\yii\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#4 C:\xampp\htdocs\yii\easyfood\index.php(11): CApplication->run()
+#5 {main}
+REQUEST_URI=/yii/easyfood/css/file/image/?file=favicon.png
+---
+2013/03/17 07:31:46 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "render".' in C:\xampp\htdocs\yii\framework\web\CController.php:483
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\CController.php(270): CController->missingAction('render')
+#1 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(282): CController->run('render')
+#2 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('file/render')
+#3 C:\xampp\htdocs\yii\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#4 C:\xampp\htdocs\yii\easyfood\index.php(11): CApplication->run()
+#5 {main}
+REQUEST_URI=/yii/easyfood/file/render
+---
+2013/03/17 07:33:49 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "q".' in C:\xampp\htdocs\yii\framework\web\CController.php:483
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\CController.php(270): CController->missingAction('q')
+#1 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(282): CController->run('q')
+#2 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('file/q/file/ima...')
+#3 C:\xampp\htdocs\yii\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#4 C:\xampp\htdocs\yii\easyfood\index.php(11): CApplication->run()
+#5 {main}
+REQUEST_URI=/yii/easyfood/file/q/file/image/?file=favicon.png
+HTTP_REFERER=http://www.mixthemup.ca/yii/easyfood/
+---
+2013/03/17 07:34:02 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "file".' in C:\xampp\htdocs\yii\framework\web\CController.php:483
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\CController.php(270): CController->missingAction('file')
+#1 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(282): CController->run('file')
+#2 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('file/file/image')
+#3 C:\xampp\htdocs\yii\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#4 C:\xampp\htdocs\yii\easyfood\index.php(11): CApplication->run()
+#5 {main}
+REQUEST_URI=/yii/easyfood/file/file/image/?file=favicon.png
+HTTP_REFERER=http://www.mixthemup.ca/yii/easyfood/
+---
