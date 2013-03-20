@@ -4294,3 +4294,19 @@ Stack trace:
 REQUEST_URI=/yii/easyfood/coming_soon.gif
 HTTP_REFERER=http://localhost/yii/easyfood/
 ---
+2013/03/20 08:21:07 [error] [php] require_once(../components/RunTimeTemplateInfo.php): failed to open stream: No such file or directory (C:\xampp\htdocs\yii\easyfood\protected\controllers\BaseController.php:2)
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(354): require()
+#1 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(276): CWebApplication->createController()
+#2 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#3 C:\xampp\htdocs\yii\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#4 C:\xampp\htdocs\yii\easyfood\index.php(11): CWebApplication->run()
+REQUEST_URI=/yii/easyfood/
+2013/03/20 08:21:08 [error] [php] require_once(../components/RunTimeTemplateInfo.php): failed to open stream: No such file or directory (C:\xampp\htdocs\yii\easyfood\protected\controllers\BaseController.php:2)
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(354): require()
+#1 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(276): CWebApplication->createController()
+#2 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#3 C:\xampp\htdocs\yii\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#4 C:\xampp\htdocs\yii\easyfood\index.php(11): CWebApplication->run()
+REQUEST_URI=/yii/easyfood/
