@@ -10,7 +10,7 @@ require_once("BaseController.php");
 class HomeController extends BaseController
 {
     public function actionIndex(){
-       $this->render('index');
+       $this->render('index',array('asdf'=>3));
     }
     public function actionShow($number){
       $this->render('home', array('number' => $number));

@@ -1,7 +1,14 @@
 <?php
 
 class BaseController extends CController
-{
+{      
+        public $template_info;
+        public $BASEURL;
+        public function __construct($id, $module=null){
+            $this->template_info =  new RunTimeTemplateInfo();
+            $this->BASEURL  = Yii::app()->baseUrl;
+            parent::__construct($id, $module);
+        }
 	public function filters()
 	{
 		//return array(
@@ -135,8 +142,7 @@ class BaseController extends CController
 		));
              * 
              */
-            
-            $this->comingSoon();
+         $this->render('index');
             
         }
 
@@ -165,11 +171,5 @@ class BaseController extends CController
              */
 	}
         
-        public function comingSoon()
-        {
-            $comingSoonDir = '../default/comingsoon';
-            $this->render($comingSoonDir);
-        }
-
 	
 }

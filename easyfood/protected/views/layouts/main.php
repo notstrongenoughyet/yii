@@ -5,7 +5,7 @@
 	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
 	<meta name="language" content="en" />
 	<!-- blueprint CSS framework -->
-        <link rel="icon" type="image/png" href="/assets/img/favicon.png"  rel="stylesheet">
+        <link rel="icon" type="image/png" href="<?php echo Yii::app()->request->baseUrl;?>/assets/img/favicon.png"  rel="stylesheet">
         
         <script src="//ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js" ></script>
         <script type="text/JavaScript" src="<?php echo Yii::app()->request->baseUrl; ?>/assets/js/bootstrap.js"></script>
@@ -23,7 +23,9 @@
 </head>
 
 <body>
-
+<?php
+    $BASEURL = Yii::app()->baseUrl;
+?>
 <div class="main_container">
     <header>
         <div class="navbar navbar-inverse">
@@ -38,13 +40,14 @@
                 </a>
 
                 <!-- Be sure to leave the brand out there if you want it shown -->
-                <a class="brand_logo" href="#"><img src="<?php echo Yii::app()->request->baseUrl;?>/assets/img/favicon.png"/></a>
-                <a class="brand" href="#">Need For Food</a>
+                <a class="brand_logo" href="<?php echo $BASEURL;?>"><img src="<?php echo $BASEURL;?>/assets/img/favicon.png"/></a>
+                <a class="brand" href="<?php echo $BASEURL;?>">Need For Food</a>
                 <div class="nav-collapse collapse navbar-responsive-collapse">
                     <ul class="nav">
-                      <li class="active"><a href="#">Home</a></li>
+                      <li class="active"><a href="<?php echo $BASEURL;?>">Home</a></li>
                       <li><a href="#">Dishes</a></li>
                       <li><a href="#">Materials</a></li>
+                      <li><a href="<?php echo $BASEURL;?>/users">Users</a></li>
                       <li class="dropdown">
                         <a href="#" class="dropdown-toggle" data-toggle="dropdown">Dropdown <b class="caret"></b></a>
                         <ul class="dropdown-menu">
@@ -65,7 +68,7 @@
                       <li><a href="#">Support</a></li>
                       <li class="divider-vertical"></li>
                       <li class="dropdown">
-                        <a href="#" class="dropdown-toggle" data-toggle="dropdown">User <b class="caret"></b></a>
+                        <a href="#" class="dropdown-toggle" data-toggle="dropdown"><?php echo $this->template_info->isLoggedIn() ? "User" : "Login"; ?> <b class="caret"></b></a>
                         <ul class="dropdown-menu">
                           <li><a href="#">Profile</a></li>
                           <li><a href="#">My posts</a></li>

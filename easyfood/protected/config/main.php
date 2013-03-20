@@ -21,7 +21,7 @@ return array(
                 'ext.phamlp.Sass',
 	),
 
-	'defaultController'=>'base',
+	'defaultController'=>'home',
 
 	// application components
 	'components'=>array(
@@ -31,7 +31,7 @@ return array(
 		),
 		'mongodb' => array(
                         'class'            => 'EMongoDB',
-                        'connectionString' => 'mongodb://localhost',
+                        'connectionString' => 'mongodb://127.0.0.1',
                         'dbName'           => 'easyfood',
                         'fsyncFlag'        => true,
                         'safeFlag'         => true,
@@ -49,9 +49,10 @@ return array(
 				'post/<id:\d+>/<title:.*?>'=>'post/view',
 				'posts/<tag:.*?>'=>'post/index',
 				'<controller:\w+>/<action:\w+>'=>'<controller>/<action>',
+                                '<controller>s'=>'<controller>',
                                 'file/rendercss.css'=> 'file/rendercss',
                                 
-			),
+                    	),
                     ),
              /*   'assetManager' => array(
                     'class' => 'ext.phamlp.PBMAssetManager',
