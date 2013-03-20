@@ -4,7 +4,7 @@
  * Provides template to passin processed session values such as is_admin, is_logged_in, etc.
  */
 
-class RunTimeTemplateInfo{
+class RuntimeTemplateInfo{
     
     public $session;
     

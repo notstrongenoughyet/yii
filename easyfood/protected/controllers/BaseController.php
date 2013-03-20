@@ -1,11 +1,11 @@
 <?php
-require_once(dirname(__FILE__).'/../components/RunTimeTemplateInfo.php');
+
 class BaseController extends CController
 {      
         public $template_info;
         public $BASEURL;
         public function __construct($id, $module=null){
-            $this->template_info =  new RunTimeTemplateInfo();
+            $this->template_info =  new RuntimeTemplateInfo();
             $this->BASEURL  = Yii::app()->baseUrl;
             parent::__construct($id, $module);
         }
