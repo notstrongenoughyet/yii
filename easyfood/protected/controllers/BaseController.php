@@ -1,5 +1,5 @@
 <?php
-
+require_once('/../components/RunTimeTemplateInfo.php');
 class BaseController extends CController
 {      
         public $template_info;
